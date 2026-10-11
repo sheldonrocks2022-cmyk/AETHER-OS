@@ -34,7 +34,7 @@ class MainActivity : Activity() {
             )
         }
         val scroll = ScrollView(this).apply {
-            fillViewport = true
+            isFillViewport = true
             addView(root)
         }
         setContentView(scroll)
